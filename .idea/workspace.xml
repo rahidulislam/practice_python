@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="786c883d-5e34-4828-9029-8caed32253fb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/practice_python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/bottle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/vowel.py" afterDir="false" />
+    <list default="true" id="786c883d-5e34-4828-9029-8caed32253fb" name="Changes" comment="search vowel code added for practice">
+      <change afterPath="$PROJECT_DIR$/list/list access.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list/panic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list/vowel.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/vowel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rahidulislam&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/rahidulislam/practice_python.git&quot;,
+    &quot;accountId&quot;: &quot;5f12770e-18f3-40fb-bd7d-8655c7aed69c&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -47,6 +52,11 @@
   "keyToString": {
     "Python.bottle.executor": "Run",
     "Python.hello.executor": "Run",
+    "Python.list access.executor": "Run",
+    "Python.panic.executor": "Run",
+    "Python.vowel.executor": "Run",
+    "Python.vowel2.executor": "Run",
+    "Python.vowel3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore_missing_gitignore": "true"
@@ -68,6 +78,28 @@
       <option name="presentableId" value="Default" />
       <updated>1715049858832</updated>
     </task>
+    <task id="LOCAL-00001" summary="bottle code added for practice">
+      <option name="closed" value="true" />
+      <created>1715571300241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715571300241</updated>
+    </task>
+    <task id="LOCAL-00002" summary="search vowel code added for practice">
+      <option name="closed" value="true" />
+      <created>1715572089768</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715572089768</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bottle code added for practice" />
+    <MESSAGE value="search vowel code added for practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="search vowel code added for practice" />
   </component>
 </project>
