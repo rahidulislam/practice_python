@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="786c883d-5e34-4828-9029-8caed32253fb" name="Changes" comment="search vowel code added for practice">
+    <list default="true" id="786c883d-5e34-4828-9029-8caed32253fb" name="Changes" comment="panic code added for list slicing practice">
       <change afterPath="$PROJECT_DIR$/list/list access.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/list/panic.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -94,12 +94,21 @@
       <option name="project" value="LOCAL" />
       <updated>1715572089768</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="panic code added for list slicing practice">
+      <option name="closed" value="true" />
+      <created>1715819214107</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715819214107</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bottle code added for practice" />
     <MESSAGE value="search vowel code added for practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="search vowel code added for practice" />
+    <MESSAGE value="panic code added for list slicing practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="panic code added for list slicing practice" />
   </component>
 </project>
