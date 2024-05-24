@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="786c883d-5e34-4828-9029-8caed32253fb" name="Changes" comment="panic code added for list slicing practice">
-      <change afterPath="$PROJECT_DIR$/list/list access.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list/panic.py" afterDir="false" />
+    <list default="true" id="786c883d-5e34-4828-9029-8caed32253fb" name="Changes" comment="workspace">
+      <change afterPath="$PROJECT_DIR$/bmi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary/alien.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary/alien2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary/avoid_keyerror.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary/checking_in.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary/favorite_language.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary/person.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dictionary/vowel3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list/vowel.py" beforeDir="false" afterPath="$PROJECT_DIR$/list/vowel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +56,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.alien.executor": "Run",
+    "Python.alien2.executor": "Run",
+    "Python.avoid_keyerror.executor": "Run",
+    "Python.bmi.executor": "Run",
     "Python.bottle.executor": "Run",
+    "Python.checking_in.executor": "Run",
+    "Python.favorite_language.executor": "Run",
     "Python.hello.executor": "Run",
     "Python.list access.executor": "Run",
     "Python.panic.executor": "Run",
+    "Python.person.executor": "Run",
     "Python.vowel.executor": "Run",
     "Python.vowel2.executor": "Run",
     "Python.vowel3.executor": "Run",
@@ -102,13 +115,22 @@
       <option name="project" value="LOCAL" />
       <updated>1715819214107</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="workspace">
+      <option name="closed" value="true" />
+      <created>1715819329048</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715819329048</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bottle code added for practice" />
     <MESSAGE value="search vowel code added for practice" />
     <MESSAGE value="panic code added for list slicing practice" />
-    <option name="LAST_COMMIT_MESSAGE" value="panic code added for list slicing practice" />
+    <MESSAGE value="workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
   </component>
 </project>
