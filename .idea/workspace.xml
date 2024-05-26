@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="786c883d-5e34-4828-9029-8caed32253fb" name="Changes" comment="workspace">
-      <change afterPath="$PROJECT_DIR$/bmi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/alien.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/alien2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/avoid_keyerror.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/checking_in.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/favorite_language.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/person.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionary/vowel3.py" afterDir="false" />
+    <list default="true" id="786c883d-5e34-4828-9029-8caed32253fb" name="Changes" comment="new file added">
+      <change afterPath="$PROJECT_DIR$/input_brackets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +58,7 @@
     "Python.favorite_language.executor": "Run",
     "Python.hello.executor": "Run",
     "Python.list access.executor": "Run",
+    "Python.main.executor": "Run",
     "Python.panic.executor": "Run",
     "Python.person.executor": "Run",
     "Python.vowel.executor": "Run",
@@ -123,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715819329048</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="some code added">
+      <option name="closed" value="true" />
+      <created>1716562791727</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716562791727</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,6 +133,8 @@
     <MESSAGE value="search vowel code added for practice" />
     <MESSAGE value="panic code added for list slicing practice" />
     <MESSAGE value="workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace" />
+    <MESSAGE value="some code added" />
+    <MESSAGE value="new file added" />
+    <option name="LAST_COMMIT_MESSAGE" value="new file added" />
   </component>
 </project>
