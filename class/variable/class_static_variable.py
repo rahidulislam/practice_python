@@ -1,9 +1,9 @@
 class Player:
-    total_run = 0
+    total_run = 0  # class or static variable which share among objects
 
     def __init__(self, name):
-        self.name = name
-        self.run = 0
+        self.name = name  # instance variable
+        self.run = 0  # instance variable
 
     def hit_four(self):
         self.run += 4
@@ -29,4 +29,3 @@ sakib.show_run()
 print(sakib.__dict__)
 print(tamim.__dict__)
 print(tamim.total_run)
-

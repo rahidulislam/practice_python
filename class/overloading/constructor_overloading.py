@@ -8,9 +8,8 @@ class Student:
             self.full_name = first_name + " " + middle_name + " " + last_name
         elif first_name and last_name:
             self.full_name = first_name + " " + last_name
-        
         else:
-            self.full_name=None
+            self.full_name = None
 
     def display_full_name(self):
         if self.full_name:
@@ -18,9 +17,12 @@ class Student:
         else:
             print("Full name is not provided")
 
+
 # ----------------------------------------------------
 # object creation
 s1 = Student(first_name="Rahidul", last_name="Islam")
-s2 = Student(first_name="John",middle_name="doe",last_name="mike")
+s2 = Student(first_name="John", middle_name="doe", last_name="mike")
+s3 = Student()
 s1.display_full_name()
 s2.display_full_name()
+s3.display_full_name()

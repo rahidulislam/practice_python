@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="786c883d-5e34-4828-9029-8caed32253fb" name="Changes" comment="new file added">
-      <change afterPath="$PROJECT_DIR$/input_brackets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/arbitrary_arguments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/default_value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/keyword-argument.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/mix_arbitrary_positional.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/passing_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/print_design.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/problem_solving/two_sum.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,16 +57,24 @@
   "keyToString": {
     "Python.alien.executor": "Run",
     "Python.alien2.executor": "Run",
+    "Python.arbitrary_arguments.executor": "Run",
     "Python.avoid_keyerror.executor": "Run",
     "Python.bmi.executor": "Run",
     "Python.bottle.executor": "Run",
     "Python.checking_in.executor": "Run",
+    "Python.default_value.executor": "Run",
     "Python.favorite_language.executor": "Run",
+    "Python.function1.executor": "Run",
     "Python.hello.executor": "Run",
+    "Python.keyword-argument.executor": "Run",
     "Python.list access.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.mix_arbitrary_positional.executor": "Run",
     "Python.panic.executor": "Run",
+    "Python.passing_list.executor": "Run",
     "Python.person.executor": "Run",
+    "Python.print_design.executor": "Run",
+    "Python.two_sum.executor": "Run",
     "Python.vowel.executor": "Run",
     "Python.vowel2.executor": "Run",
     "Python.vowel3.executor": "Run",
@@ -72,7 +86,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
       </set>
     </attachedChunks>
   </component>
@@ -125,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716562791727</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new file added">
+      <option name="closed" value="true" />
+      <created>1716686228406</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716686228406</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
