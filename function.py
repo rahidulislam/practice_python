@@ -43,16 +43,21 @@
 # store_lamda5 = lambda x,y,z: x+y+z
 # print(store_lamda5(1,2,3))
 
-def new_multiplied(k):
-    return lambda x: x*k
-new_double = new_multiplied(2)
-new_triple = new_multiplied(3)
+# def new_multiplied(k):
+#     return lambda x: x*k
+# new_double = new_multiplied(2)
+# new_triple = new_multiplied(3)
 
-# print(new_multiplied(4))
-print(new_double(10))
-print(new_triple(10))
+# # print(new_multiplied(4))
+# print(new_double(10))
+# print(new_triple(10))
 
-def add(a, b):
-    return a+5, b+5
-result = add(3, 2)
-print(result)
+# def add(a, b):
+#     return a+5, b+5
+# result = add(3, 2)
+# print(result)
+
+def get_net_price(price,discount):
+    return price * (1-discount)
+print(get_net_price(100,0.1))
+print(get_net_price(price=500,discount=0.2))
