@@ -5,7 +5,7 @@ def print_billing_doc():
     tax_rate = 0.1
     products =[{'name':'apple','price':100},{'name':'banana','price':50}]
     # print billing header
-    print(f"Name\tPrice\tTax")
+    print("Name\tPrice\tTax")
 
     # print the billing details
     for product in products:
