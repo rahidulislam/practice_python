@@ -1,3 +1,5 @@
+from os.path import exists
+from pathlib import Path
 # # write file
 # f = open("test.txt", "w")
 # f.write("Hello World")
@@ -42,3 +44,12 @@ with open("test.txt","a") as f:
 utf8_lines = ["",'আমার নাম রাহিদুল ইসলাম']
 with open("test.txt","a",encoding="utf-8") as f:
     f.write("\n".join(utf8_lines))
+
+
+print(exists("test.txt"))
+path = Path("test.txt")
+print(path.is_file())
+if path.is_file():
+    print(f"the file {path} exists")
+else:
+    print(f"the file {path} does not exist")
