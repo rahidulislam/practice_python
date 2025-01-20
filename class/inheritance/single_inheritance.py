@@ -25,3 +25,31 @@ print(isinstance(a1,Dog))
 # check subclass
 print(issubclass(Dog,Animal))
 print(issubclass(Animal,Dog))
+
+# =========================================
+# single inheritence
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        return f'Hi My name is {self.name} and I am {self.age} years old'
+    
+class Employee(Person):
+    def __init__(self, name, age, job_title):
+        super().__init__(name, age)
+        self.job_title = job_title
+
+    def greet(self):
+        return super().greet() + f" I am a {self.job_title}"
+
+# =========================================
+p1 = Person("John", 30)
+print(p1.greet())
+e1 = Employee("Jane", 25, "Manager")
+print(e1.greet())
+print(hex(id(p1)))
+print(isinstance(p1,Person))
+print(Person.__name__)
+print(type(Person))
