@@ -19,3 +19,62 @@ a = MyNum(2)
 b = MyNum(3)
 c = a + b
 print(c)
+
+# ==============================================
+class Point2D:
+    def __init__(self,x,y):
+        self.x = x
+        self.y = y
+
+    def __str__(self):
+        return f"{self.x},{self.y}"
+    
+    def __add__(self,point):
+        if not isinstance(point,Point2D):
+            raise ValueError('The other must be an instance of the Point2D class')
+        return Point2D(self.x+point.x, self.y+point.y)
+
+
+a = Point2D(12,23)
+b = Point2D(14,25)
+c = a+b
+print(c)
+
+# ==============================================
+class Item:
+    def __init__(self, name, qty, price):
+        self.name = name
+        self.qty = qty
+        self.price = price
+    @property
+    def amount(self):
+        return self.qty * self.price
+    
+    def __str__(self):
+        return f"{self.name} {self.qty} ${self.price} ${self.amount}"
+class Cart:
+    def __init__(self):
+        self.items =[]
+    
+    def __iadd__(self,item):
+        if not isinstance(item,Item):
+            raise ValueError("The item must be an instance of the Item class")
+        self.items.append(item)
+        return self
+    @property
+    def total(self):
+        return sum([item.amount for item in self.items])
+    
+    def __str__(self):
+        if not self.items:
+            return "Cart is empty"
+        return "\n".join([str(item) for item in self.items])
+    
+
+if __name__ == "__main__":
+    cart = Cart()
+    cart += Item("Apple", 2, 10)
+    cart += Item("Banana", 3, 15)
+    print(cart)
+    print('-'*30)
+    print('Total: $', cart.total)
