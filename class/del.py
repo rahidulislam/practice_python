@@ -4,8 +4,8 @@ class Person:
         self.age = age
 
     def __del__(self):
-        print("__del__ was called")
+        print(f"{self.name} {self.age} destroyed")
 
 person = Person("John", 30)
-person = None
-# del person
+# person = None
+del person

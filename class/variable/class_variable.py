@@ -118,3 +118,20 @@ print(p1.net_price())
 p2 = Product(200)
 p2.set_discount(0.05)
 print(p2.net_price())
+
+class Car:
+    wheels =4
+
+    def __init__(self,brand,model):
+        self.brand = brand
+        self.model =model
+
+car1 = Car("Toyota", "Corolla")
+car2 = Car("Tesla", "Model S")
+
+print(car1.wheels)
+print(car2.wheels)
+
+print(car1.brand)
+print(car2.brand)
+
