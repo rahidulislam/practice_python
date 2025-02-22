@@ -35,4 +35,15 @@ class SingletonClass(metaclass=SingletonMeta):
 obj1 = SingletonClass()
 obj2 = SingletonClass()
 print(obj1 is obj2)
-            
+
+class MyMeta2(type):
+    def __new__(cls, name,bases,dict):
+        print(f"Creating class: {name}")
+        dict['class_created'] = True
+        return super().__new__(cls,name,bases,dict)
+    
+class MyClass4(metaclass=MyMeta2):
+    pass
+
+print(MyClass4.class_created)
+print(MyClass4.__dict__)          
